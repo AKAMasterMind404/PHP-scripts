@@ -1,0 +1,12 @@
+*** USER INPUT ***
+
+    <form action = "user_input.php" method="GET">
+        Name: <input type="text" name="name_variable"> <br><br> // INPUT FIELD
+        <input type="submit">
+    </form>
+
+    <?php 
+        echo $_GET["name_variable"];
+    ?>
+
+*** USER INPUT ***

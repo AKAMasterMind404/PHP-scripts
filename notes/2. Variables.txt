@@ -1,0 +1,44 @@
+-------------------------------- VARIABLES --------------------------------
+
+To declare a variable:
+
+    $<variable-name> = <variable-value>;
+
+To Reference a variable, use a $ sign
+
+    echo "My name is $<variable-name>"
+
+Eg:
+
+    // HTML CODE
+    <body>
+    
+    <?php
+    $characterName = "Atharv";
+    $age = 21;
+
+    echo "Hello, World!";    
+    echo "<hr>";    
+    echo "The owner of this website is $characterName <br>";
+    echo "My Age is $age";    
+    ?>
+    
+    </body>
+
+This code is executed(interpreted).
+Start the server with the Command:
+
+    php -S localhost:3500
+
+Go to the url "localhost:3500/" followed by the 
+name of the php file and extension eg:
+
+    http://localhost:3500/first_program.php
+
+***** DATA TYPES *****
+String : $string1 = "To be or not to be";
+Integer : $int1 = 30;
+Float : $float1 = 30.45;
+Boolean : $bool1 = true; // ECHOS AS 1 and  Nothing for true and false respectively
+
+-------------------------------- VARIABLES --------------------------------

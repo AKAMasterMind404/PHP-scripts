@@ -1,0 +1,27 @@
+*** String Functions ***
+
+    $demo = strtoupper($characterName);
+    $d1 = str_replace("name", "identity", $longText);
+    $substringEg = substr($longText, 0,2);
+
+*** String Functions ***
+
+*** Number Functions ***
+
+    echo abs(-100);
+    echo pow(2,4); // 16 ie POWER
+    echo sqrt(144); // 12 ie square root
+    echo max(10,31); // 31 ie max number
+    echo min(10,31); // 10 ie min number
+    echo round(4.7); // 5 ie round
+    echo ceil(4.7); // 5 ie ceiling
+    echo floor(4.7); // 4 ie floor
+
+*** Number Functions ***
+
+*** Array Functions ***
+$arr = array("hey", "this", "is", "an", "array");
+
+count($arr);
+
+*** Array Functions ***

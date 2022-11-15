@@ -1,0 +1,5 @@
+Use "include" keyword in the php tag.
+
+This executes the file in front of the include tag.
+This means the functions and fields declared inside the 
+included in the file is executed and can be referred.

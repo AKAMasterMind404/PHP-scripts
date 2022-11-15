@@ -1,0 +1,33 @@
+-------------------------------- BASIC --------------------------------
+
+Write commands between:
+
+    <?php
+    ...    
+    ?>
+
+Eg:
+
+    // HTML CODE
+    <body>
+    
+    <?php
+    echo "Hello, World!";    
+    echo "<hr>";    
+    echo "Hello, World!";    
+    ?>
+
+    </body>
+
+This code is executed(interpreted).
+Start the server with the Command:
+
+    php -S localhost:3500
+
+Go to the url "localhost:3500/" followed by the 
+name of the php file and extension eg:
+
+    http://localhost:3500/first_program.php
+
+-------------------------------- BASIC --------------------------------
+

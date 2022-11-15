@@ -1,0 +1,16 @@
+-------------------------------- STRING FUNCTIONS --------------------------------
+
+strlen : length of string
+strtoupper: Converts string to upper case
+
+*** Indexing ***
+
+Suppose a variable
+
+$phrase = "Hello, World!";
+
+echo $phrase[0]
+
+This will print "H"
+
+-------------------------------- STRING FUNCTIONS --------------------------------

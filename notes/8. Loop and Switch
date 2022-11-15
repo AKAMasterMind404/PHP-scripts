@@ -1,0 +1,29 @@
+For Loop:
+
+    for ($i=0; $i < count($array1); $i++) { 
+        echo $array1[$i]; echo "<br>";
+    };
+
+switch Statement
+ switch($op){
+        case "-":
+            $answer = $n1 - $n2;
+            break;
+        case "*":
+            $answer = $n1 * $n2;
+            break;
+        case "/":
+            $answer = $n1 / $n2;
+            break;
+        case "+":
+            $answer = $n1 + $n2;
+            break;
+        case "%":
+            $answer = $n1 % $n2;
+            break;
+        default:
+            echo "Invalid input!";echo "<br>";
+            break;        
+    }
+
+    echo "The answer is "; echo $answer;
