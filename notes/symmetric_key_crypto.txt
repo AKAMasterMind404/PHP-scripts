@@ -1,0 +1,5 @@
+C = K1[M]
+M = K1[C]
+
+Eg:
+DES, AES

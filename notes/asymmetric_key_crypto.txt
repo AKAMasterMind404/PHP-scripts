@@ -1,0 +1,31 @@
+Joe wants to comm with Ryan
+
+Asymmetric Key Cryptography:
+Uses two different keys for encryption and decryption.
+
+Public key: This key is used for encryption.
+Private key: This key is used for decryption.
+
+
+The public keys can be sent to both parties via
+any medium without any security.
+
+Working:
+
+The public key is shared to both parties.
+The sender uses the receivers public key to
+encode the message. This gives us an encrypted
+text. This text is sent to the receiver. The receiver
+then uses his private key to decrypt the original
+message.
+
+Application:
+Digital Signatures
+Cryptography
+encrypted browsing(SSL)
+
+Eg: 
+RSA encryption
+Divide data into blocks. 
+Blocks are encrypted individually and chained.
+chained blocks are decrypted.
