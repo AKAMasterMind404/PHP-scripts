@@ -28,6 +28,7 @@ TO ACCESS COOKIES USE:
 $_COOKIE['category']
 
 Sessions:
+Usually declared at the beginning of the page.
 Used to manage information accross different pages.
 Similar to state management in flutter.
 
