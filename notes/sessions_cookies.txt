@@ -1,0 +1,5 @@
+Cookie: A tag given to a user whenever he/she visits a
+visits a website in order to identify him/her again.
+
+Cookies helps the website to identify the user and
+his/her preferences.
