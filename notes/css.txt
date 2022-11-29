@@ -1,0 +1,23 @@
+CSS consists of Selectors like:
+    Tags
+    Classes
+    IDs
+
+In order to style all components with a given tag, Class
+or id, reference it and apply the style.
+
+Eg: 
+reference using a Selector
+
+.bg-blue {
+    color: blue;
+}
+
+Alignment, Spacing , Decoration
+Border THICKNESS, color
+Box Model: padding, margin
+
+positioning: static, relative, fixed, absolute
+flexbox: Flex in flutter
+
+css grid:
