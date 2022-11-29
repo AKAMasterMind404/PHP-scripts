@@ -1,3 +1,5 @@
+Video: CodeWithHarry php playlist
+
 Cookie: A tag given to a user whenever he/she visits a
 visits a website in order to identify him/her again.
 
@@ -26,3 +28,27 @@ TO ACCESS COOKIES USE:
 $_COOKIE['category']
 
 Sessions:
+Used to manage information accross different pages.
+Similar to state management in flutter.
+
+Keyword: session_start();
+Syntax:
+session_start();
+$_SESSION['username'] = "HARRY";
+$_SESSION['favCat'] = "Books";
+
+session_unset(); // RESETS THE DICTIONARY
+session_destroy(); // DESTROYS THE SESSION
+
+
+Eg:
+
+session_start();
+if(isset($_SESSION['username'])){
+    echo "yay";
+}
+else {
+    session_unset();
+    session_destroy();
+    echo "Session Destroyed!";
+}
