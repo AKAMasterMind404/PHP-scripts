@@ -3,3 +3,26 @@ visits a website in order to identify him/her again.
 
 Cookies helps the website to identify the user and
 his/her preferences.
+
+Cookie is not used to store sensitive data.
+
+Eg: 
+
+Cookie (syntax unsure)
+
+{
+    "age": "young",
+    "gender": "male"
+}
+
+Keyword: 
+setcookie("category","Books",time() + 86400, "/");
+syntax:
+setcookie(<key>,<value>,time() + <time-in-sessions>,<domain use / for entire website>)
+
+// THIS IS AVAILABLE IN REQUEST HEADERS
+TO ACCESS COOKIES USE:
+
+$_COOKIE['category']
+
+Sessions:
